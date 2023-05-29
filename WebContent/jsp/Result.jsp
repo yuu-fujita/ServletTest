@@ -21,7 +21,7 @@
 		<p>氏名: <%= name %></p>
 		<p>会社: <%= (company != null) ? company : "" %></p>
 		<p>メールアドレス: <%= email %></p>
-		<p>お問い合わせ内容: <%= message %></p>
+		<p>お問合せ内容: <%= message %></p>
 		<p>メルマガ種類:</p>
 	<%
 		if(mailmagas != null){
