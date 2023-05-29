@@ -9,6 +9,7 @@
 <body>
 	
 	<!--お問い合わせフォームの表示-->
+	
 	<h2>お問い合わせフォーム</h2>
 
 	<form action="testform" method="post">

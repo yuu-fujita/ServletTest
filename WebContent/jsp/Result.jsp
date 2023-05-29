@@ -9,6 +9,7 @@
 <body>
 	
 	<!--受け取ったお問い合わせフォームの結果を表示-->
+	
 	<h2>お問い合わせフォームの入力内容です。</h2>
 	<%
 		String name = (String) request.getAttribute("name");

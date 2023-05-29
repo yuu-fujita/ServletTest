@@ -38,6 +38,7 @@ public class TestForm extends HttpServlet {
 		// TODO Auto-generated method stub
 
 		//入力されたフォームデータの処理
+		
 		String name = request.getParameter("name");
 		String company = request.getParameter("company");
 		String email = request.getParameter("email");
