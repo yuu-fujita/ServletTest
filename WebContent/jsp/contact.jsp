@@ -13,21 +13,21 @@
 
 	<form action="testform" method="post">
 		<label for="name">氏名:</label>
-		<input type="text" id="name" name="name" required><br><br>
+		<input type="text" name="name" required><br><br>
 		
 		<label for="company">会社:</label>
-		<input type="text" id="company" name="company"><br><br>
+		<input type="text" name="company"><br><br>
 		
 		<label for="email">メールアドレス:</label>
-		<input type="text" id="email" name="email" required><br><br>
+		<input type="text" name="email" required><br><br>
 		
 		<label for="message">お問合せ内容:</label>
-		<textarea id="message" name="message" rows="3" cols=30 required></textarea><br><br>
+		<textarea  name="message" rows="3" cols=30 required></textarea><br><br>
 		
 		<label>メルマガ種類:</label><br>
 			<input type="checkbox" name="mailmaga" value="総合案内">総合案内<br>
 			<input type="checkbox" name="mailmaga" value="セミナー案内">セミナー案内<br>
-			<input type="checkbox" name="mailmaga" value="求人採用案内">求人採用案内<br>
+			<input type="checkbox" name="mailmaga" value="求人採用情報">求人採用情報<br>
 		
 		<label>資料請求希望:</label><br>
 			<input type="radio" name="request" value="yes">Yes<br>

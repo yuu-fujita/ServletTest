@@ -18,11 +18,11 @@
 		String[] mailmagas = (String[]) request.getAttribute("mailmagas");
 		String requestType = (String) request.getAttribute("requestType");
 	%>
-	<p>氏名: <%= name %></p>
-	<p>会社: <%= (company != null) ? company : "" %></p>
-	<p>メールアドレス: <%= email %></p>
-	<p>お問い合わせ内容: <%= message %></p>
-	<p>メルマガ種類:</p>
+		<p>氏名: <%= name %></p>
+		<p>会社: <%= (company != null) ? company : "" %></p>
+		<p>メールアドレス: <%= email %></p>
+		<p>お問い合わせ内容: <%= message %></p>
+		<p>メルマガ種類:</p>
 	<%
 		if(mailmagas != null){
 			for(String mailmaga : mailmagas){
@@ -31,7 +31,7 @@
 		}
 	%>
 	
-	<p>資料請求希望:<%= requestType %></p>
+		<p>資料請求希望:<%= requestType %></p>
 	
 	<%
 		if("yes".equals(requestType)) {
